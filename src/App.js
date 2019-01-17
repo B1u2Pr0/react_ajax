@@ -15,10 +15,10 @@ class App extends Component {
   }  
 
   componentDidMount() {
-//		fetchFirst("reactjs").then((posts)=>{
-//			this.state.posts = posts;
-//			this.setState({sposts: posts});
-//		});
+		fetchFirst("reactjs").then((posts)=>{
+			this.state.posts = posts;
+			this.setState({sposts: posts});
+		});
   }    
   render() {
     return (
